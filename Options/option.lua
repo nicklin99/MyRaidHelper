@@ -1,8 +1,11 @@
 -- init
 
 local NickAddon = LibStub("AceAddon-3.0"):NewAddon("NickAddon")
+local AceConfig = LibStub("AceConfig-3.0")
 
-local ConfigModule = NickAddon.NewModule("NickConfig", nil, "AceConfig-3.0")
+-- create module
+
+local ConfigModule = NickAddon.NewModule("NickConfig", nil, "AceConsole-3.0")
 
 local options = {
   type = "group",
